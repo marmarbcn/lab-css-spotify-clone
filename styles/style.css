@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+    font-family: Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navBar ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.headerImage {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.textImage {
+    text-align: center;
+    padding: 300px 0;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.textImage p {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#information {
+    text-align: center;
+}
+
+h2 span {
+    border-bottom: 2px solid #00b172;
+}
+
+.contentInformation {
+    display: flex;
+    flex-direction: row;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.contentInformation img {
+    height: 70px;
+    margin: 0;
+}
+
+.contentDiv {
+    padding: 0 60px;
+}
+
+h3 {
+    color: #00b172;
+    font-weight: 300;
+    margin: 0;
+}
+
+#music {
+    background-color: #00b172;
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.musicText {
+    color: white;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h4 span {
+    border-bottom: 2px solid white;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#music p {
+    font-size: 15px;
+    font-weight: 100;
+}
